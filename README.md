@@ -82,3 +82,7 @@ Masukkan nilai mahasiswa ke-4 : 85
 Masukkan nilai mahasiswa ke-5 : 65
 Rata-rata nilai lulus = 85.0
 Rata-rata nilai tidak lulus = 62.5
+
+Pertanyaan Percobaan 4
+1. Jelaskan maksud dari statement break; pada baris ke-10 kode program percobaan 4 di atas.
+Jawab: break; digunakan untuk menghentikan (keluar dari) perulangan lebih awal, bahkan jika kondisi for belum selesai. jadi, begitu program menemukan nilai yang dicari (key), ia langsung berhenti mencari dan keluar dari loop.
