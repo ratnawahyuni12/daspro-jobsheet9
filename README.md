@@ -73,3 +73,12 @@ Mahasiswa ke-9 lulus!
 
 Pertanyaan Percobaan 3
 1. Modifikasi kode program pada praktikum percobaan 3 di atas (ArrayRataNilaiXX.java) agar program dapat menampilkan banyaknya mahasiswa yang lulus, yaitu mahasiswa yang memiliki lebih besar dari 70 (> 70).
+2. Modifikasi program pada praktikum percobaan 3 di atas (ArrayRataNilaiXX.java) sehingga program menerima jumlah elemen berdasarkan input dari pengguna dan mengeluarkan output seperti berikut ini:
+Masukkan jumlah mahasiswa : 5 
+Masukkan nilai mahasiswa ke-1 : 80
+Masukkan nilai mahasiswa ke-2 : 60
+Masukkan nilai mahasiswa ke-3 : 90
+Masukkan nilai mahasiswa ke-4 : 85
+Masukkan nilai mahasiswa ke-5 : 65
+Rata-rata nilai lulus = 85.0
+Rata-rata nilai tidak lulus = 62.5
