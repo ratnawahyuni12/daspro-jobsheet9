@@ -50,3 +50,23 @@ Jawab: alur program:
 (4.) Jika nilai lebih dari 70, maka ditampilkan bahwa mahasiswa tersebut lulus.
 (5.) Hanya mahasiswa yang nilai > 70 yang status kelulusannya muncul di output. sedangkan untuk mahasiswa yang nilainya < 70 hanya akan muncul di bagian "Masukkan nilai akhir ke-i : " dan status kelulusannya tidak muncul.
 (8.) Program selesai!
+4. Modifikasi program agar menampilkan status kelulusan semua mahasiswa berdasarkan nilai, yaitu dengan menampilkan status mana mahasiswa yang lulus dan tidak lulus, seperti ilustrasi output berikut:
+Masukkan nilai akhir ke-0 : 87 
+Masukkan nilai akhir ke-1 : 65 
+Masukkan nilai akhir ke-2 : 78 
+Masukkan nilai akhir ke-3 : 95 
+Masukkan nilai akhir ke-5 : 58 
+Masukkan nilai akhir ke-6 : 89 
+Masukkan nilai akhir ke-7 : 67 
+Masukkan nilai akhir ke-8 : 85 
+Masukkan nilai akhir ke-9 : 78 
+Mahasiswa ke-0 lulus!
+Mahasiswa ke-1 tidak lulus!
+Mahasiswa ke-2 lulus!
+Mahasiswa ke-3 lulus!
+Mahasiswa ke-4 lulus!
+Mahasiswa ke-5 tidak lulus!
+Mahasiswa ke-6 lulus!
+Mahasiswa ke-7 tidak lulus!
+Mahasiswa ke-8 lulus!
+Mahasiswa ke-9 lulus!
