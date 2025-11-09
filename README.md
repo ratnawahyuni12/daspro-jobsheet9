@@ -18,3 +18,8 @@ maksud dari statement tersebut adalah sebagai berikut:
 - for (int i = 0; i < 4; i++) adalah perulangan for yang digunakan untuk menelusuri setiap elemen array. int i = 0 digunakan untuk menginisialisasi variabel penghitung i dimulai dari 0. i < 4 sebagai kondisi perulangan yang terus berjalan selama i bernilai kurang dari 4. i++ akan menambah nilai i di setiap putaran.
 - System.out.println(bil[i]); digunakan untuk menampilkan nilai elemen array bil pada indeks ke-1.
 Jadi, perulangan for digunakan untuk menampilkan seluruh elemen array tanpa harus menulis System.out.println(); berkali-kali. output program menampilkan isi array bil (5, 13, -7, dan 17) di masing-masing baris yang berbeda.
+4. Jika kondisi pada statement for-loop di atas diubah menjadi i <= 4, apa keluaran dari program? Mengapa demikian?
+jawab: keluaran dari program tersebut sama seperti sebelumnya, namun terdapat pesan error berupa :
+- Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4
+         ArrayBilangan21.main(ArrayBilangan21.java:7)
+hal ini terjadi karena pada saat nilai i bernilai 4, program mencoba mengakses elemen bil[4], sedangkan array bil hanya memiliki indeks 0 sampai 3 saja. dengan kata lain, indeks ke-4 berada di luar batas (out of bounds) dari panjang array yang berjumlah 4 elemen.
