@@ -86,3 +86,14 @@ Rata-rata nilai tidak lulus = 62.5
 Pertanyaan Percobaan 4
 1. Jelaskan maksud dari statement break; pada baris ke-10 kode program percobaan 4 di atas.
 Jawab: break; digunakan untuk menghentikan (keluar dari) perulangan lebih awal, bahkan jika kondisi for belum selesai. jadi, begitu program menemukan nilai yang dicari (key), ia langsung berhenti mencari dan keluar dari loop.
+2. Modifikasi kode program pada percobaan 4 di atas sehingga program dapat menerima input berupa banyaknya elemen array nilai, isi array, dan sebuah nilai (key) yang ingin dicari. Lalu cetak ke layar indeks posisi elemen dari nilai (key) yang dicari. Contoh hasil program:
+Masukkan banyaknya nilai yang akan diinput: 6 
+Masukkan nilai mahasiswa ke-1: 80 
+Masukkan nilai mahasiswa ke-2: 90 
+Masukkan nilai mahasiswa ke-3: 75 
+Masukkan nilai mahasiswa ke-4: 83 
+Masukkan nilai mahasiswa ke-5: 78 
+Masukkan nilai mahasiswa ke-6: 92 
+Masukkan nilai yang ingin dicari: 78 
+
+Nilai 78 ketemu, merupakan nilai mahasiswa ke-5
