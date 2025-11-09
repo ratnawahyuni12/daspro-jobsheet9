@@ -36,3 +36,17 @@ Jawab: tidak terjadi perubahan pada saat program dijalankan. program akan tetap 
 Jawab: berikut penjelasannya:
 - nilaiAkhir.length digunakan untuk mendapatkan panjang array.
 - maksud dari i < nilaiAkhir.length yaitu perulangan akan terus berjalan selama indeks i masih berada di dalam batas jumlah elemen array. dengan menggunakan cara ini dalam mengetahui panjang array, akan lebih aman dan fleksibel daripada menulis angka tetap (seperti i < 10), karena secara otomatis menyesuaikan jika ukuran array berubah. 
+3. Ubah statement pada langkah nomor 6 menjadi seperti berikut ini, sehingga program hanya menampilkan nilai Mahasiswa yang lulus saja (yaitu mahasiswa yang memiliki nilai > 70):
+for (int i = 0; i < nilaiAkhir.length; i++) {
+    if (nilaiAkhir[i] > 70) {
+        System.out.println("Mahasiswa ke-" + i + " lulus!");
+    }
+}
+Jalankan program dan jelaskan alur program!
+Jawab: alur program:
+(1.) Program meminta pengguna memasukkan 10 nilai akhir mahasiswa satu per satu.
+(2.) Setiap nilai disimpan di dalam array nilaiAkhir.
+(3.) Program melakukan cek tiap nilai dengan perulangan for.
+(4.) Jika nilai lebih dari 70, maka ditampilkan bahwa mahasiswa tersebut lulus.
+(5.) Hanya mahasiswa yang nilai > 70 yang status kelulusannya muncul di output. sedangkan untuk mahasiswa yang nilainya < 70 hanya akan muncul di bagian "Masukkan nilai akhir ke-i : " dan status kelulusannya tidak muncul.
+(8.) Program selesai!
