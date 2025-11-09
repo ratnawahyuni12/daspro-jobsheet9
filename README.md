@@ -32,3 +32,7 @@ for (int i = 0; i < nilaiAkhir.length; i++) {
 }
 Jalankan program. Apakah terjadi perubahan? Mengapa demikian?
 Jawab: tidak terjadi perubahan pada saat program dijalankan. program akan tetap meminta pengguna untuk memasukkan 10 nilai akhir, lalu menampilkan semuanya kembali seperti sebelumnya. hal ini dapat terjadi karena i < nilaiAkhir.length sama dengan i < 10 karena memiliki batas perulangan yang sama. perbedaannya terletak pada fleksibilitas .length yang apabila ukuran array nantinya diubah maka perulangan akan otomatis menyesuaikan tanpa perlu mengubah angka tersebut secara manual.
+2. Apa yang dimaksud dengan kondisi: i < nilaiAkhir.length ?
+Jawab: berikut penjelasannya:
+- nilaiAkhir.length digunakan untuk mendapatkan panjang array.
+- maksud dari i < nilaiAkhir.length yaitu perulangan akan terus berjalan selama indeks i masih berada di dalam batas jumlah elemen array. dengan menggunakan cara ini dalam mengetahui panjang array, akan lebih aman dan fleksibel daripada menulis angka tetap (seperti i < 10), karena secara otomatis menyesuaikan jika ukuran array berubah. 
