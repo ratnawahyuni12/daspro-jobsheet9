@@ -70,3 +70,6 @@ Mahasiswa ke-6 lulus!
 Mahasiswa ke-7 tidak lulus!
 Mahasiswa ke-8 lulus!
 Mahasiswa ke-9 lulus!
+
+Pertanyaan Percobaan 3
+1. Modifikasi kode program pada praktikum percobaan 3 di atas (ArrayRataNilaiXX.java) agar program dapat menampilkan banyaknya mahasiswa yang lulus, yaitu mahasiswa yang memiliki lebih besar dari 70 (> 70).
