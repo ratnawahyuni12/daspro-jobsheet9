@@ -23,3 +23,12 @@ jawab: keluaran dari program tersebut sama seperti sebelumnya, namun terdapat pe
 - Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4
          ArrayBilangan21.main(ArrayBilangan21.java:7)
 hal ini terjadi karena pada saat nilai i bernilai 4, program mencoba mengakses elemen bil[4], sedangkan array bil hanya memiliki indeks 0 sampai 3 saja. dengan kata lain, indeks ke-4 berada di luar batas (out of bounds) dari panjang array yang berjumlah 4 elemen.
+
+Pertanyaan Percobaan 2
+1. Ubah statement pada langkah nomor 5 menjadi seperti berikut ini:
+for (int i = 0; i < nilaiAkhir.length; i++) {
+    System.out.print("Masukkan nilai akhir ke-" + i + " : ");
+    nilaiAkhir[i] = sc.nextInt();
+}
+Jalankan program. Apakah terjadi perubahan? Mengapa demikian?
+Jawab: tidak terjadi perubahan pada saat program dijalankan. program akan tetap meminta pengguna untuk memasukkan 10 nilai akhir, lalu menampilkan semuanya kembali seperti sebelumnya. hal ini dapat terjadi karena i < nilaiAkhir.length sama dengan i < 10 karena memiliki batas perulangan yang sama. perbedaannya terletak pada fleksibilitas .length yang apabila ukuran array nantinya diubah maka perulangan akan otomatis menyesuaikan tanpa perlu mengubah angka tersebut secara manual.
