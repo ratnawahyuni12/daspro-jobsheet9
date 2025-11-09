@@ -97,3 +97,14 @@ Masukkan nilai mahasiswa ke-6: 92
 Masukkan nilai yang ingin dicari: 78 
 
 Nilai 78 ketemu, merupakan nilai mahasiswa ke-5
+3. Modifikasi program pada percobaan 4 di atas, sehingga program akan memberikan pesan "Nilai yang dicari tidak ditemukan" jika nilai yang dicari (key) tidak ada di dalam array. Contoh tampilan program sebagai berikut:
+Masukkan banyaknya nilai yang akan diinput: 6 
+Masukkan nilai mahasiswa ke-1: 80 
+Masukkan nilai mahasiswa ke-2: 90 
+Masukkan nilai mahasiswa ke-3: 75 
+Masukkan nilai mahasiswa ke-4: 82 
+Masukkan nilai mahasiswa ke-5: 95 
+Masukkan nilai mahasiswa ke-6: 70 
+Masukkan nilai yang ingin dicari: 85 
+
+Nilai yang dicari tidak ditemukan
